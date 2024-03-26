@@ -1,7 +1,7 @@
 const axios = require('axios');
 require('dotenv').config();
 
-const url = process.env.POST_DATA_URL;
+const url = process.env.URL;
 const clientId = `${process.env.POST_DATA_SPACE}.ziqni.app`;
 
 const username = process.env.USER_NAME;
